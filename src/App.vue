@@ -1,11 +1,11 @@
-<template>
-  
-  <CounterComposition/>
+<template>  
+ <div>
+  <ClassBind/>
+ </div>
 </template>
 
 <script lang="ts" setup>
-import CouterOption from './components/CouterOption.vue';
-import CounterComposition from './components/CounterComposition.vue';
+import ClassBind from "./components/ClassBind.vue"
 </script>
 
 <style>
